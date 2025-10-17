@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect } from "react";
-import { Board, Direction, direction_to_str } from "../model/board";
+import { Board, Direction } from "../model/board";
 import { useSwipeable } from "react-swipeable";
 import { fetch_ai_advise } from "../model/ai";
 
